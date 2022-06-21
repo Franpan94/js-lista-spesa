@@ -13,6 +13,7 @@ let elementlist= document.getElementById('element-list');
 while(i < shoppinglist.length) {
      
 let onelist= document.createElement('li');
+onelist.classList.add('ms_bg');
 console.log(onelist);
 onelist.innerHTML = shoppinglist[i];
 elementlist.append(onelist);
